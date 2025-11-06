@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adv. Suresh Chand | Legal Drafting & Consultancy</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(to bottom right, #002244, #0055aa);
+      color: #fff;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.4);
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      height: 80px;
+      width: auto;
+      border-radius: 8px;
+    }
+    header h1 {
+      font-size: 28px;
+      margin-top: 10px;
+    }
+    header p {
+      font-size: 16px;
+      opacity: 0.8;
+    }
+    main {
+      flex: 1;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-bottom: 2px solid #fff;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    .about {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .contact {
+      background: rgba(255,255,255,0.15);
+      padding: 25px;
+      border-radius: 10px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+    }
+    form button {
+      background: #fff;
+      color: #003366;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #dde6ff;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: rgba(0,0,0,0.3);
+      font-size: 14px;
+    }
+    a.whatsapp {
+      color: #25d366;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.whatsapp:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="advlogo.png" alt="Adv. Suresh Chand Logo">
+    <h1>Adv. Suresh Chand</h1>
+    <p>Legal Drafting & Consultancy Services</p>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>About</h2>
+      <p>
+        I am <strong>Advocate Suresh Chand</strong>, providing professional legal drafting,
+        documentation, and consultation services.  
+        Special expertise in agreements, notices, and property-related documentation.
+      </p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Form</h2>
+      <form action="https://formspree.io/f/mkgnjgnz" method="POST" onsubmit="window.location='thankyou.html'; return true;">
+        <input type="text" name="name" placeholder="Your Full Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Direct Contact</h2>
+      <p>Call or WhatsApp: <a href="https://wa.me/919958814407" class="whatsapp" target="_blank">+91 9958814407</a></p>
+      <p>Email: <a href="mailto:adv.sureshchand@gmail.com" style="color:white;">adv.sureshchand@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Adv. Suresh Chand | All Rights Reserved
+  </footer>
+</body>
+</html>
